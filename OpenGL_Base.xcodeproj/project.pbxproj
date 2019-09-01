@@ -22,7 +22,7 @@
 		3455A6B21EC4DAA6000057E4 /* vulkan.c in Sources */ = {isa = PBXBuildFile; fileRef = 3455A6A51EC4DAA6000057E4 /* vulkan.c */; };
 		3455A6B31EC4DAA7000057E4 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 3455A6A61EC4DAA6000057E4 /* window.c */; };
 		3455A6B41EC4DB8F000057E4 /* libglfw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3455A6961EC4DA71000057E4 /* libglfw.a */; };
-		349C53E51EC4D6CB008D42C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 345D937D1EC4C47D003B7C63 /* main.cpp */; };
+		349C53E51EC4D6CB008D42C6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 345D937D1EC4C47D003B7C63 /* main.c */; };
 		349C53E71EC4D6FC008D42C6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D93DC1EC4C53B003B7C63 /* OpenGL.framework */; };
 		349C53E81EC4D700008D42C6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D93E21EC4C54C003B7C63 /* Cocoa.framework */; };
 		349C53E91EC4D707008D42C6 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D93E01EC4C543003B7C63 /* IOKit.framework */; };
@@ -45,7 +45,7 @@
 		3455A6A41EC4DAA6000057E4 /* posix_tls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = posix_tls.c; path = "lib/glfw-3.2.1/src/posix_tls.c"; sourceTree = "<group>"; };
 		3455A6A51EC4DAA6000057E4 /* vulkan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vulkan.c; path = "lib/glfw-3.2.1/src/vulkan.c"; sourceTree = "<group>"; };
 		3455A6A61EC4DAA6000057E4 /* window.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = window.c; path = "lib/glfw-3.2.1/src/window.c"; sourceTree = "<group>"; };
-		345D937D1EC4C47D003B7C63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		345D937D1EC4C47D003B7C63 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = src/main.c; sourceTree = SOURCE_ROOT; };
 		345D93DC1EC4C53B003B7C63 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		345D93DE1EC4C540003B7C63 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		345D93E01EC4C543003B7C63 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
@@ -128,7 +128,7 @@
 		345D937C1EC4C47D003B7C63 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				345D937D1EC4C47D003B7C63 /* main.cpp */,
+				345D937D1EC4C47D003B7C63 /* main.c */,
 			);
 			name = src;
 			path = oglplay;
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349C53E51EC4D6CB008D42C6 /* main.cpp in Sources */,
+				349C53E51EC4D6CB008D42C6 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
